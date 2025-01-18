@@ -28,7 +28,8 @@ obsidian自制搜索框
 ![image](https://github.com/user-attachments/assets/375946ca-f0ec-47b3-b449-998787c0ba00)
 ### 五、一些使用参数，修改
 1. 表头更改如下
- ![image](https://github.com/user-attachments/assets/87111dd1-23b1-405b-993c-aadc6b405eee)
+![image](https://github.com/user-attachments/assets/91f019f9-728b-4a38-b369-d4d27d2658b1)
+
 2. 默认搜索显示的数量 10 ，可以自己修改
 ![image](https://github.com/user-attachments/assets/c3bf9c10-19db-42ba-8637-12f5985c47d6)
 
