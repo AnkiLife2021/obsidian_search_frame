@@ -33,4 +33,6 @@ obsidian自制搜索框
 2. 默认搜索显示的数量 10 ，可以自己修改
 ![image](https://github.com/user-attachments/assets/c3bf9c10-19db-42ba-8637-12f5985c47d6)
 
+3. 一些可能不董的解释，什么叫key，什么叫value，其实就是Yaml区的属性值； 你不用管你的key 与 value的对应关系 ，你记得关键字就行了，搜就完事儿了，只要有写，就一定能出来
+ ![image](https://github.com/user-attachments/assets/b4190150-46b7-436c-b61c-c20333cf1219)
 
