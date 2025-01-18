@@ -26,3 +26,10 @@ obsidian自制搜索框
 4. 有个缺点，我不太会改css，这个是黑色主题下的，可能白色主题的话，得详细改；有大神的话，就补充吧
 ![image](https://github.com/user-attachments/assets/fd3a7385-e269-4516-8751-6c3d86e89883)
 ![image](https://github.com/user-attachments/assets/375946ca-f0ec-47b3-b449-998787c0ba00)
+### 五、一些使用参数，修改
+1. 表头更改如下
+ ![image](https://github.com/user-attachments/assets/87111dd1-23b1-405b-993c-aadc6b405eee)
+2. 默认搜索显示的数量 10 ，可以自己修改
+![image](https://github.com/user-attachments/assets/c3bf9c10-19db-42ba-8637-12f5985c47d6)
+
+
