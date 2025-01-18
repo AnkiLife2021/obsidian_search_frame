@@ -19,3 +19,9 @@ obsidian自制搜索框
 3.  复制这个文件夹的路径
 4.  用dataviewjs查，Markdown就是一个模板， 可以直接复制，把那个路径改成自己刚放的路径就行啦
 
+### 四、 我做这个框的目的
+1. 常规搜索，确实，obsidian有，也能搜索内容 ，可没办法筛选；还要写语法，真的很不友好
+2. 我的搜索框，常规的搜索都有，还可以定制表头，也能搜索内容
+3. 如果有需求 ，自己看着来吧； 
+![image](https://github.com/user-attachments/assets/fd3a7385-e269-4516-8751-6c3d86e89883)
+![image](https://github.com/user-attachments/assets/375946ca-f0ec-47b3-b449-998787c0ba00)
