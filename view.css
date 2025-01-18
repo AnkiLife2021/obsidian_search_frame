@@ -1,0 +1,990 @@
+
+	    .flex-container {
+            display: flex;
+            flex-direction: column;       /* 垂直排列 */
+            gap: 12px;                   /* 行间距 */
+            padding: 8px;            /* 设置容器内边距 */
+            height: 100%;        /* 设置容器高度，例如 100% */
+            width: 100%;          /* 设置容器宽度，例如 100% */
+            /* background-color: #f9f9f9 ;  设置容器背景颜色 */
+            overflow: auto;        /* 如果内容溢出，添加滚动条 */
+            border-radius: 0px;    /* 设置容器圆角 */
+            border: 1px solid #ccc ; 
+        }
+        
+     /* Row3 - By | 月 | 周 | Day-Start | Day-End*/    
+         /* Row3 - 01 - 按什么时间 by - label */    
+          .dark-01-label-row3-WhatTime {
+             font-size: 16px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right: -25px;   /* 与输入框的间距 */
+             margin-left: 10px;    /* 左侧间距 */ 
+             width: 80px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             }
+         /* Row3 - 01 - 按什么时间 by - 下拉选框 */    
+          .dark-01-select-Row3-WhatTime {
+             font-size: 19 px; /* 调整字体大小 */
+             height: 25px; /* 明确设置按钮高度 */
+             line-height: 15px; /* 确保文字垂直居中 */
+             width: 110px;          /* 设置容器宽度，例如 100% */
+             margin-left: 0px;    /* 左侧间距 */
+             margin-right: 0px;   /* 与输入框的间距 */
+             padding: 3px;         /* 设置内边距 */
+             border: 0px solid #ccc ;    /* 设置边框 */
+             border-radius: 2px;       /* 设置圆角 */           
+             box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+             text-align: center; /* 文本居中对齐 */    
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */   
+            
+             }
+         /* Row3 - 02 - Month 输入框 - lable  */        
+          .dark-01-label-row3-Month {
+             font-size: 14px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right:-60px;   /* 与输入框的间距 */
+             margin-left: 0px;    /* 左侧间距 */ 
+             width: 80px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             
+             }
+         /* Row3 - 02 - Month 输入框 -框框样式  */    
+          .dark-01-contianer-row3-Month {
+             width: 110px; /* 设置宽度 */
+             padding: 6px 10px; /* 设置内边距 */
+             margin-right: -40px;   /* 与输入框的间距 */
+             margin-left: px;    /* 左侧间距 */ 
+             height: 25px;        /* 设置容器高度，例如 100% */
+             font-size: 14px; /* 字体大小 */
+             vertical-align:middle;
+             border: 1px solid #ccc ; /* 边框宽度和颜色 */
+             
+             }
+         /* Row3 - 03 - Week 输入框 - lable  */    
+            .dark-01-label-row3-Week {
+             font-size: 14px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right: -50px;   /* 与输入框的间距 */
+             margin-left: 15px;    /* 左侧间距 */ 
+             width: 65px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             }
+         /* Row3 - 03 - Week 输入框 - 框框样式  */    
+          .dark-01-contianer-row3-Week {
+             width: 130px; /* 设置宽度 */
+             padding: 6px 10px; /* 设置内边距 */
+             margin-right: -30px;   /* 与输入框的间距 */
+             margin-left: px;    /* 左侧间距 */ 
+             height: 25px;        /* 设置容器高度，例如 100% */
+             font-size: 14px; /* 字体大小 */
+             vertical-align:middle;
+             border: 1px solid #ccc ; /* 边框宽度和颜色 */
+             
+             }
+         /* Row3 - 04 - Day ~ Start 输入框 - label  */    
+            .dark-01-label-row3-Start {
+             font-size: 14px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right:-70px;   /* 与输入框的间距 */
+             margin-left: 15px;    /* 左侧间距 */ 
+             width: 80px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             
+             }
+         /* Row3 - 04 - Day ~ Start 输入框 - 框框样式  */    
+          .dark-01-contianer-row3-Start {
+             width: 120px; /* 设置宽度 */
+             padding: 6px 10px; /* 设置内边距 */
+             margin-right: -30px;   /* 与输入框的间距 */
+             margin-left: px;    /* 左侧间距 */ 
+             height: 25px;        /* 设置容器高度，例如 100% */
+             font-size: 14px; /* 字体大小 */
+             vertical-align:middle;
+             border: 1px solid #ccc ; /* 边框宽度和颜色 */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             }
+         /* Row3 - 05 - Day ~ End 输入框 - label   */    
+     
+            .dark-01-label-row3-End {
+             font-size: 14px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right:-75px;   /* 与输入框的间距 */
+             margin-left: 15px;    /* 左侧间距 */ 
+             width: 80px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             }
+         /* Row3 - 05 - Day ~ End 输入框 - 框框样式  */    
+          .dark-01-contianer-row3-End {
+             width: 120px; /* 设置宽度 */
+             padding: 6px 10px; /* 设置内边距 */
+             margin-right: 0px;   /* 与输入框的间距 */
+             margin-left: px;    /* 左侧间距 */ 
+             height: 25px;        /* 设置容器高度，例如 100% */
+             font-size: 14px; /* 字体大小 */
+             vertical-align:middle;
+             border: 1px solid #ccc ; /* 边框宽度和颜色 */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             
+             }
+     
+     /* Row5 - 分组+排序 | pageSize - 调节  */    
+         
+         /* Row5 - 02 - 表头控制器 - 下拉选框  */    
+             .dark-01-select-row5-HeaderCtrol {
+                 font-size: 15px; /* 调整字体大小 */                
+                 width: 120px;          /* 设置容器宽度，例如 100% */
+                 margin-left: 200px;    /* 左侧间距 */
+                 margin-top: 16px;   
+                 margin-right: 0px;   /* 与输入框的间距 */
+                 padding: 0px;         /* 设置内边距 */
+                 border: 0px solid #ccc ;    /* 设置边框 */
+                 border-radius: 2px;       /* 设置圆角 */           
+                 box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+                 text-align: center; /* 文本居中对齐 */                       
+                 border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */             
+                 vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+                 }
+         
+         /* Row5 - 03 - 分组 key 展示 - 控制器 - 下拉选框  */    
+             .dark-01-select-row5-GroupCtrol {
+                 font-size: 15px; /* 调整字体大小 */                
+                 width: 120px;          /* 设置容器宽度，例如 100% */
+                 margin-left: 0px;    /* 左侧间距 */
+                 margin-top: 16px;   
+                 margin-right: -20px;   /* 与输入框的间距 */
+                 padding: 0px;         /* 设置内边距 */
+                 border: 0px solid #ccc ;    /* 设置边框 */
+                 border-radius: 2px;       /* 设置圆角 */           
+                 box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+                 text-align: center; /* 文本居中对齐 */                       
+                 border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */             
+                 vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+                 }
+     
+         /* Row5 - 04 - 按？ 分组  - 下拉选框  */
+             .dark-01-select-row5-GroupBy {
+                  font-size: 15px; /* 调整字体大小 */                
+                  width: 100px;          /* 设置容器宽度，例如 100% */
+                  margin-left: 0px;    /* 左侧间距 */
+                  margin-top: 16px;   
+                  margin-right: -25px;   /* 与输入框的间距 */
+                  padding: 0px;         /* 设置内边距 */
+                  border: 0px solid #ccc ;    /* 设置边框 */
+                  border-radius: 2px;       /* 设置圆角 */           
+                  box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+                  text-align: center; /* 文本居中对齐 */                       
+                  border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */             
+                  vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+                  }
+     
+         /* Row5 -  05 - GroupOrder  → asc | desc  -- 排序方向  */
+            .dark-01-select-row5-GroupOrder {
+                 font-size: 23 px; /* 调整字体大小 */
+                 line-height: 2;       /* 设置行高，确保文字垂直居中 */
+                 width: 50px;          /* 设置容器宽度，例如 100% */
+                 margin-left: 3px;    /* 左侧间距 */
+                 margin-top: 16px;   
+                 margin-right: -15px;   /* 与输入框的间距 */
+                 padding: 0px;         /* 设置内边距 */
+                 border: 0px solid #ccc ;    /* 设置边框 */
+                 border-radius: 2px;       /* 设置圆角 */           
+                 box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+                 text-align: center; /* 文本居中对齐 */     
+                 border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */ 
+             
+             }
+     
+         /* Row5 - 06 -   Line 分组的组内 →   排序区域   */    
+          .dark-01-select-row5-LineSortBy {
+             font-size: 19 px; /* 调整字体大小 */
+             line-height: 2;       /* 设置行高，确保文字垂直居中 */
+             width: 90px;          /* 设置容器宽度，例如 100% */
+             margin-left:0px;    /* 左侧间距 */
+             margin-right: -10px;   /* 与输入框的间距 */
+             padding: 0px;         /* 设置内边距 */
+             border: 0px solid #ccc ;    /* 设置边框 */
+             border-radius: 2px;       /* 设置圆角 */      
+             margin-top: 16px;        
+             box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+             text-align: center; /* 文本居中对齐 */   
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */    
+         
+             }
+     
+         
+         /* Row5 - 07 - LIne 排序 "方向" -   */    
+          .dark-01-select-row5-LineSortOrder {
+             font-size: 19 px; /* 调整字体大小 */
+             line-height: 2;       /* 设置行高，确保文字垂直居中 */
+             width: 60px;          /* 设置容器宽度，例如 100% */
+             margin-left: -10px;    /* 左侧间距 */
+             margin-top: 16px;   
+             margin-right: 0px;   /* 与输入框的间距 */
+             padding: 3px;         /* 设置内边距 */
+             border: 0px solid #ccc ;    /* 设置边框 */
+             border-radius: 2px;       /* 设置圆角 */           
+             box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+             text-align: center; /* 文本居中对齐 */ 
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */      
+         
+             }
+     
+    
+     /* Row5 - Header （组件众多 | 分开调）  -复选框   */    
+         /* 01 - 下拉筛选框容器 - 控制整体的 */    
+          .dark-01-HeaderContainer-container {
+             background-color: #333 ; /* 背景颜色为深色 */
+             padding: 0px; /* 内边距 */
+             border: 1px solid #444 ; /* 边框颜色和样式 */
+             border-radius: 5px; /* 圆角边框 */
+             width: 170px; /* 最大宽度 */                           
+             margin-left: 0px;    /* 左侧间距 */                
+             margin-right: 1px;   /* 右侧间距 */
+             margin-top: 16px;   /* 右侧间距 */
+             margin-bottom:0px;   /* 右侧间距 */        
+             line-height: 25px;      /* 设置行高 */            
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 盒子阴影 */                    border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             position: absolute;
+             
+             }
+     
+         /* 02 - 触发器按钮  */    
+           .dark-01-HeaderContainer-button {
+             background-color: #444 ; /* 背景颜色为深灰色 */
+             color: #fff ; /* 文字颜色为白色 */
+             width: 168px; /* 最大宽度 */
+             height: 30px; 
+             border: none; /* 无边框 */
+             padding: 10px 15px; /* 内边距 */
+             margin-top:0px;   /* 右侧间距 */
+             border-radius: 5px; /* 圆角边框 */
+             cursor: pointer; /* 鼠标指针样式 */
+             font-size: 16px; /* 字体大小 */
+             transition: background-color 0.3s; /* 背景颜色过渡效果 */                
+             
+             
+             }
+     
+           .dark-01-HeaderContainer-button:hover {
+                 background-color: #0056b3 ; /* 悬停时背景颜色为稍浅的灰色 */
+             }
+     
+     
+         /* 03 - 下拉菜单  的每个选项容器  */            
+          .dark-01-HeaderContainer-option-container {
+             display: flex; /* 使用 flexbox 布局 */
+             align-items: center; /* 垂直居中对齐 */
+             padding: 5px 10px; /* 内边距 */
+             cursor: pointer; /* 鼠标指针样式 */
+             border-bottom: 1px solid #444 ; /* 每个选项的底部边框 */
+             }	
+     
+     
+         /* 04 - 下拉勾选的框框  */
+          .dark-01-Header-Option-checkbox {
+             width: 16px;  /* 设置复选框的宽度 */
+             height: 16px; /* 设置复选框的高度 */
+             margin-right: 10px; /* 设置复选框与标签之间的间距 */
+             vertical-align: middle; /* 确保复选框和标签垂直居中对齐 */
+             }
+         
+         /* 05 - 选项值  */
+             .dark-01-Header-Option-label {
+               font-size: 14px;       
+               color: #ffffff ;        
+               background-color: #333 ; 
+               padding: 0px;          
+               border-radius: 3px;    
+               display: inline-block;  
+               margin-top: -2px;  
+               margin-left: 3px;  
+               vertical-align: middle ; 
+                 }
+     
+     
+         /* 04 - 选项列表 ('div') */    
+     
+     
+         /* 05 - 选项列表 ('label') */    
+     
+     
+     /* Row1 | Row2 | Row4 - 通用的 - lable | 输入框 */
+         /* lable 样式  */    
+            .dark-01-label-field {
+             font-size: 16px; /* 字体大小 */
+             color: yellow; /* 字体颜色 */
+             margin-right: 3px;   /* 与输入框的间距 */
+             margin-left: 10px;    /* 左侧间距 */ 
+             width: 80px;          /* 设置容器宽度，例如 100% */
+             display: flex;
+             align-items: center; /* 垂直对齐 */
+             }
+     
+         /* 输入框 样式  */    
+            .dark-01-inputFilter-field-string {
+             padding: 8px;
+             width: 250px;          /* 设置容器宽度，例如 100% */                
+             margin-left: -5px;   /* 左边距 */
+             margin-right: 10px;  /* 右边距 */
+             border-radius: 4px;
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             background-color: #333 ; /* 输入框背景颜色 */
+             color: #fff ; /* 输入框文字颜色 */
+             box-shadow: 0 0 5px rgba(204, 204, 204, 0.5); /* 添加柔和的阴影效果 */
+             }
+     
+     /* 单独-麻烦-下拉 - 选框 → Row1-css （控制好长度）  -   */    
+         /* Row-1-Css 样式选择 - 下拉选框 */    
+          .dark-01-select-CssStyle {
+             font-size: 19 px; /* 调整字体大小 */
+             line-height: 2;       /* 设置行高，确保文字垂直居中 */
+             width: 120px;          /* 设置容器宽度，例如 100% */
+             margin-left: 0px;    /* 左侧间距 */
+             margin-right: 0px;   /* 与输入框的间距 */
+             padding: 3px;         /* 设置内边距 */
+             border: 0px solid #ccc ;    /* 设置边框 */
+             border-radius: 2px;       /* 设置圆角 */           
+             box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+             text-align: center; /* 文本居中对齐 */       
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+         
+             }
+     
+     /* 清空按钮 → Row2-"清空条件" | Row4-"清空 Date" | Row5-"清空 Sort"*/
+     
+     
+         /* Row2 - 04 - 清空 String 搜索 - 按钮    */
+          .dark-01-button--clear-StringSearch {
+             box-sizing: border-box;
+             background-color: #007BFF ;
+             color: white;
+             cursor: pointer;
+             width: 120px;          /* 设置容器宽度，例如 100% */
+             padding: 10px 20px; /* 确保按钮内填充一致 */
+             border: none; /* 确保没有边框变化 */
+             margin:1 px; /* 添加外边距，防止与其他元素重叠 */
+             
+             display: inline-block; /* 保持按钮内联块状 */
+              /* width: auto; 保持自动宽度 */
+             line-height: 0; /* 设置行高，确保文本垂直居中 */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             }
+         
+          .dark-01-button--clear-StringSearch:hover {
+             background-color: #0056b3 ;
+             padding: 10px 20px;    /* 确保悬停时填充一致 */
+             border: none;          /* 确保悬停时没有边框变化 */        
+             width: 120px;          /* 设置容器宽度，例如 100% */
+             /*width: auto;保持自动宽度  */
+                    
+             }
+         /* Row4 - 04 - 清空 Date 日期条件 - 按钮    */
+          .dark-01-button--clear-Date {
+             box-sizing: border-box;
+             background-color: #007BFF ;
+             color: white;
+             cursor: pointer;
+             width: 120px;          /* 设置容器宽度，例如 100% */
+             padding: 10px 20px; /* 确保按钮内填充一致 */
+             border: none; /* 确保没有边框变化 */
+             margin:1 px; /* 添加外边距，防止与其他元素重叠 */
+             
+             display: inline-block; /* 保持按钮内联块状 */
+              /* width: auto; 保持自动宽度 */
+             line-height: 0; /* 设置行高，确保文本垂直居中 */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             }
+         
+          .dark-01-button--clear-Date:hover {
+             background-color: #0056b3 ;
+             padding: 10px 20px;    /* 确保悬停时填充一致 */
+             border: none;          /* 确保悬停时没有边框变化 */        
+             width: 120px;          /* 设置容器宽度，例如 100% */
+             /*width: auto;保持自动宽度  */
+                    
+             }
+         /* Row5 - 04 - 清空 Sort 排序  - 按钮  */
+          .dark-01-button--clear-Sort {
+             box-sizing: border-box;
+             background-color: #007BFF ;
+             color: white;
+             cursor: pointer;
+             margin-top: 16px;   
+             margin-right: 5px;
+             width: 100px;          /* 设置容器宽度，例如 100% */
+             padding: 10px 20px; /* 确保按钮内填充一致 */
+             border: none; /* 确保没有边框变化 */               
+             
+             display: inline-block; /* 保持按钮内联块状 */
+              /* width: auto; 保持自动宽度 */
+             line-height: 0; /* 设置行高，确保文本垂直居中 */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+             }
+         
+          .dark-01-button--clear-Sort:hover {
+             background-color: #0056b3 ;
+             padding: 10px 20px;    /* 确保悬停时填充一致 */
+             border: none;          /* 确保悬停时没有边框变化 */        
+             width: 100px;          /* 设置容器宽度，例如 100% */
+             /*width: auto;保持自动宽度  */
+             border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+                    
+             }
+     
+	 /* Row6-content 搜索的 */
+		 /*那个检索结果的 文本  */
+			.dark-01-paragraph {
+			    flex: 1;
+			    font-size: 16px;
+			    color: yellow;
+			    margin-top: 11px;
+			    margin-right:0px; 
+			    /* 其他样式可以在这里添加 */
+			}
+
+		 /* 搜索框文本的  lable 样式  */    
+		   .dark-01-label-content {
+			font-size: 16px; /* 字体大小 */
+			color: yellow; /* 字体颜色 */
+			margin-right: 15px;   /* 与输入框的间距 */
+			margin-top: 9px;
+			margin-left: 0px;    /* 左侧间距 */ 
+			width: 100px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			align-items: center; /* 垂直对齐 */
+			}
+	
+		 /* 输入框 样式  */    
+		   .dark-01-inputFilter-content {
+			padding: 8px;
+			width: 250px;          /* 设置容器宽度，例如 100% */                
+			margin-left: -5px;   /* 左边距 */
+			margin-right: 80px;  /* 右边距 */
+			margin-top: 8px;
+			margin-bottom: 3px;
+			border-radius: 4px;
+			border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+			background-color: #333 ; /* 输入框背景颜色 */
+			color: #fff ; /* 输入框文字颜色 */
+			box-shadow: 0 0 5px rgba(204, 204, 204, 0.5); /* 添加柔和的阴影效果 */
+			}
+			
+		 /*  清空   - 按钮  */
+			.dark-01-button--clear-content {
+			   box-sizing: border-box;
+			   background-color: #007BFF ;
+			   color: white;
+			   cursor: pointer;
+			   margin-top: 8px;   
+			   margin-right: 3px;
+			   width: 100px;          /* 设置容器宽度，例如 100% */
+			   padding: 10px 20px; /* 确保按钮内填充一致 */
+			   border: none; /* 确保没有边框变化 */               
+			   
+			   display: inline-block; /* 保持按钮内联块状 */
+			    /* width: auto; 保持自动宽度 */
+			   line-height: 0; /* 设置行高，确保文本垂直居中 */
+			   border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+			   }
+			
+			.dark-01-button--clear-content:hover {
+			   background-color: #0056b3 ;
+			   padding: 10px 20px;    /* 确保悬停时填充一致 */
+			   border: none;          /* 确保悬停时没有边框变化 */        
+			   width: 100px;          /* 设置容器宽度，例如 100% */
+			   /*width: auto;保持自动宽度  */
+			   border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+			          
+			   }
+
+		
+		 /* Row6 - 05 - 单页 max -  label  */
+		   .dark-01-label-pagesize {
+		    font-size: 14px; /* 字体大小 */
+		    color: yellow; /* 字体颜色 */
+		    margin-right: 20px;   /* 与输入框的间距 */
+		    margin-left: 20px;    /* 左侧间距 */ 
+		    width: 60px;          /* 设置容器宽度，例如 100% */
+		    margin-top: 5px;   
+		    display: flex;
+		    align-items: center; /* 垂直对齐 */
+		    }
+		    
+		 /* Row5 6 - 05 - 单页 max -  文本输入框  */
+		   .dark-01-inputPageMax-field {
+		    padding: 8px;
+		    width: 60px;          /* 设置容器宽度，例如 100% */
+		    margin-top: 5px;   
+		    margin-right:0px;   /* 与输入框的间距 */
+		    border: 1px solid #ccc ;
+		    margin-left: -5px;   /* 左边距 */
+		    margin-right: 25px;  /* 右边距 */
+		    border-radius: 4px;
+		    text-align: center; /* 文本居中对齐 */ 
+		    border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+		    }
+
+
+
+
+
+	
+	/* 白色主题01 - Row3 - By | 月 | 周 | Day-Start | Day-End*/    
+		/* Row3 - 01 - 按什么时间 by - label */    
+		 .light-01-label-row3-WhatTime {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right: -25px;   /* 与输入框的间距 */
+			margin-left: 10px;    /* 左侧间距 */ 
+			width: 80px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			align-items: center; /* 垂直对齐 */
+			font-weight: bold;              
+			}
+		/* Row3 - 01 - 按什么时间 by - 下拉选框 */    
+		 .light-01-select-Row3-WhatTime {
+			font-size: 19 px; /* 调整字体大小 */
+			height: 25px; /* 明确设置按钮高度 */
+			line-height: 15px; /* 确保文字垂直居中 */
+			width: 110px;          /* 设置容器宽度，例如 100% */
+			margin-left: 0px;    /* 左侧间距 */
+			margin-right: 0px;   /* 与输入框的间距 */
+			padding: 3px;         /* 设置内边距 */
+			border: 0px solid #ccc ;    /* 设置边框 */
+			border-radius: 2px;       /* 设置圆角 */           
+			box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+			text-align: center; /* 文本居中对齐 */    
+			font-weight: bold;
+			
+			border: 1px solid #333 !important; /* 深灰色边框，使用 !important */
+			
+		   
+			}
+		/* Row3 - 02 - Month 输入框 - lable  */        
+		 .light-01-label-row3-Month {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right:-60px;   /* 与输入框的间距 */
+			margin-left: 0px;    /* 左侧间距 */ 
+			width: 80px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			font-weight: bold;              
+			align-items: center; /* 垂直对齐 */
+			
+			}
+		/* Row3 - 02 - Month 输入框 -框框样式  */    
+		 .light-01-contianer-row3-Month {
+			width: 110px; /* 设置宽度 */
+			padding: 6px 10px; /* 设置内边距 */
+			margin-right: -40px;   /* 与输入框的间距 */
+			margin-left: px;    /* 左侧间距 */ 
+			height: 25px;        /* 设置容器高度，例如 100% */
+			font-size: 14px; /* 字体大小 */
+			vertical-align:middle;
+			font-weight: bold;  
+			border: 1px solid #333 !important;
+			
+			
+			}
+		/* Row3 - 03 - Week 输入框 - lable  */    
+		   .light-01-label-row3-Week {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right: -50px;   /* 与输入框的间距 */
+			margin-left: 15px;    /* 左侧间距 */ 
+			width: 65px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			font-weight: bold;  
+			align-items: center; /* 垂直对齐 */
+			}
+		/* Row3 - 03 - Week 输入框 - 框框样式  */    
+		 .light-01-contianer-row3-Week {
+			width: 130px; /* 设置宽度 */
+			padding: 6px 10px; /* 设置内边距 */
+			margin-right: -30px;   /* 与输入框的间距 */
+			margin-left: px;    /* 左侧间距 */ 
+			height: 25px;        /* 设置容器高度，例如 100% */
+			font-size: 14px; /* 字体大小 */
+			vertical-align:middle;
+			font-weight: bold;  
+			border: 1px solid #333 !important;
+			
+			}
+		/* Row3 - 04 - Day ~ Start 输入框 - label  */    
+		   .light-01-label-row3-Start {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right:-70px;   /* 与输入框的间距 */
+			margin-left: 15px;    /* 左侧间距 */ 
+			width: 80px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			font-weight: bold;  
+			align-items: center; /* 垂直对齐 */
+			
+			}
+		/* Row3 - 04 - Day ~ Start 输入框 - 框框样式  */    
+		 .light-01-contianer-row3-Start {
+			width: 120px; /* 设置宽度 */
+			padding: 6px 10px; /* 设置内边距 */
+			margin-right: -30px;   /* 与输入框的间距 */
+			margin-left: px;    /* 左侧间距 */ 
+			height: 25px;        /* 设置容器高度，例如 100% */
+			font-size: 14px; /* 字体大小 */
+			vertical-align:middle;
+			font-weight: bold;  
+			border: 1px solid #333 !important;
+			}
+		/* Row3 - 05 - Day ~ End 输入框 - label   */    
+	
+		   .light-01-label-row3-End {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right:-75px;   /* 与输入框的间距 */
+			margin-left: 15px;    /* 左侧间距 */ 
+			width: 80px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			font-weight: bold;  
+			align-items: center; /* 垂直对齐 */
+			}
+		/* Row3 - 05 - Day ~ End 输入框 - 框框样式  */    
+		 .light-01-contianer-row3-End {
+			width: 120px; /* 设置宽度 */
+			padding: 6px 10px; /* 设置内边距 */
+			margin-right: 0px;   /* 与输入框的间距 */
+			margin-left: px;    /* 左侧间距 */ 
+			height: 25px;        /* 设置容器高度，例如 100% */
+			font-size: 14px; /* 字体大小 */
+			vertical-align:middle;
+			font-weight: bold;  
+			border: 1px solid #333 !important;
+			
+			}
+	
+	/* 白色主题01 - Row5 - 分组+排序 | pageSize - 调节  */    
+		
+		/* Row5 - 02 - 表头控制器 - 下拉选框  */    
+			.light-01-select-row5-HeaderCtrol {
+				font-size: 15px; /* 调整字体大小 */                
+				width: 120px;          /* 设置容器宽度，例如 100% */
+				margin-left: 200px;    /* 左侧间距 */
+				margin-top: 16px;   
+				margin-right: 0px;   /* 与输入框的间距 */
+				padding: 0px;         /* 设置内边距 */
+				border: 0px solid #ccc ;    /* 设置边框 */
+				border-radius: 2px;       /* 设置圆角 */           
+				box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+				text-align: center; /* 文本居中对齐 */                       
+				border: 1px solid #333 !important;     
+				vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+				font-weight: bold;  
+				}
+		
+		/* Row5 - 03 - 分组 key 展示 - 控制器 - 下拉选框  */    
+			.light-01-select-row5-GroupCtrol {
+				font-size: 15px; /* 调整字体大小 */                
+				width: 120px;          /* 设置容器宽度，例如 100% */
+				margin-left: 0px;    /* 左侧间距 */
+				margin-top: 16px;   
+				margin-right: -20px;   /* 与输入框的间距 */
+				padding: 0px;         /* 设置内边距 */
+				border: 0px solid #ccc ;    /* 设置边框 */
+				border-radius: 2px;       /* 设置圆角 */   
+				font-weight: bold;          
+				box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+				text-align: center; /* 文本居中对齐 */                       
+				border: 1px solid #333 !important;
+				vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+				}
+	
+		/* Row5 - 04 - 按？ 分组  - 下拉选框  */
+			.light-01-select-row5-GroupBy {
+				 font-size: 15px; /* 调整字体大小 */                
+				 width: 100px;          /* 设置容器宽度，例如 100% */
+				 margin-left: 0px;    /* 左侧间距 */
+				 margin-top: 16px;   
+				 margin-right: -25px;   /* 与输入框的间距 */
+				 padding: 0px;         /* 设置内边距 */
+				 border: 0px solid #ccc ;    /* 设置边框 */
+				 border-radius: 2px;       /* 设置圆角 */           
+				 box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+				 text-align: center; /* 文本居中对齐 */                                          font-weight: bold;  
+				  border: 1px solid #333 !important;
+				 vertical-align: middle; /* 确保行内元素在垂直方向居中 */
+				 }
+	
+		/* Row5 -  05 - GroupOrder  → asc | desc  -- 排序方向  */
+		   .light-01-select-row5-GroupOrder {
+				font-size: 23 px; /* 调整字体大小 */
+				line-height: 2;       /* 设置行高，确保文字垂直居中 */
+				width: 50px;          /* 设置容器宽度，例如 100% */
+				margin-left: 3px;    /* 左侧间距 */
+				margin-top: 16px;   
+				margin-right: -15px;   /* 与输入框的间距 */
+				padding: 0px;         /* 设置内边距 */
+				border: 0px solid #ccc ;    /* 设置边框 */
+				border-radius: 2px;       /* 设置圆角 */           
+				box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+				text-align: center; /* 文本居中对齐 */   
+				font-weight: bold;    
+				border: 1px solid #333 !important;
+			
+			}
+	
+		/* Row5 - 06 -   Line 分组的组内 →   排序区域   */    
+		 .light-01-select-row5-LineSortBy {
+			font-size: 19 px; /* 调整字体大小 */
+			line-height: 2;       /* 设置行高，确保文字垂直居中 */
+			width: 90px;          /* 设置容器宽度，例如 100% */
+			margin-left:0px;    /* 左侧间距 */
+			margin-right: -10px;   /* 与输入框的间距 */
+			padding: 0px;         /* 设置内边距 */
+			border: 0px solid #ccc ;    /* 设置边框 */
+			border-radius: 2px;       /* 设置圆角 */      
+			margin-top: 16px;        
+			font-weight: bold;  
+			box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+			text-align: center; /* 文本居中对齐 */   
+		   border: 1px solid #333 !important;
+		
+			}
+	
+		
+		/* Row5 - 07 - LIne 排序 "方向" -   */    
+		 .light-01-select-row5-LineSortOrder {
+			font-size: 19 px; /* 调整字体大小 */
+			line-height: 2;       /* 设置行高，确保文字垂直居中 */
+			width: 60px;          /* 设置容器宽度，例如 100% */
+			margin-left: -10px;    /* 左侧间距 */
+			margin-top: 16px;   
+			margin-right: 0px;   /* 与输入框的间距 */
+			padding: 3px;         /* 设置内边距 */
+			border: 0px solid #ccc ;    /* 设置边框 */
+			border-radius: 2px;       /* 设置圆角 */   
+			font-weight: bold;          
+			box-sizing: border-box; /* 确保内边距和边框包括在总宽度和高度内 */
+			text-align: center; /* 文本居中对齐 */ 
+			border: 1px solid #333 !important;   
+		
+			}
+	
+	
+		/* Row5 - 05 - 单页 max -  label  */
+		   .light-01-label-pagesize {
+			font-size: 14px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right: 20px;   /* 与输入框的间距 */
+			margin-left: 0px;    /* 左侧间距 */ 
+			width: 60px;          /* 设置容器宽度，例如 100% */
+			margin-top: -5px;   
+			display: flex;
+			font-weight: bold;  
+			align-items: center; /* 垂直对齐 */
+			}
+		/* Row5 - 05 - 单页 max -  文本输入框  */
+		   .light-01-inputPageMax-field {
+			padding: 8px;
+			width: 60px;          /* 设置容器宽度，例如 100% */
+			margin-top: 0px;   
+			margin-right:0px;   /* 与输入框的间距 */
+			border: 1px solid #ccc ;
+			margin-left: -5px;   /* 左边距 */
+			margin-right: 10px;  /* 右边距 */
+			border-radius: 4px;
+			font-weight: bold;  
+			text-align: center; /* 文本居中对齐 */ 
+			border: 1px solid #333 !important;
+			}
+	
+	/* 白色主题01 - Row5 - Header （组件众多 | 分开调）  -复选框   */    
+		/* 01 - 下拉筛选框容器 - 控制整体的 */    
+		 .light-01-HeaderContainer-container {
+			background-color: #333 ; /* 背景颜色为深色 */
+			padding: 0px; /* 内边距 */
+			border: 1px solid #444 ; /* 边框颜色和样式 */
+			border-radius: 5px; /* 圆角边框 */
+			width: 170px; /* 最大宽度 */                           
+			margin-left: 0px;    /* 左侧间距 */                
+			margin-right: 1px;   /* 右侧间距 */
+			margin-top: 16px;   /* 右侧间距 */
+			margin-bottom:0px;   /* 右侧间距 */        
+			line-height: 25px;      /* 设置行高 */     
+			font-weight: bold;         
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 盒子阴影 */                        
+			border: 1px solid #333 !important; 
+			
+			position: absolute;
+			
+			}
+	
+		/* 02 - 触发器按钮  */    
+		  .light-01-HeaderContainer-button {
+			background-color: #444 ; /* 背景颜色为深灰色 */
+			color: #ff557f ; /* 文字颜色为白色 */
+			width: 168px; /* 最大宽度 */
+			height: 30px; 
+			border: none; /* 无边框 */
+			padding: 10px 15px; /* 内边距 */
+			margin-top:0px;   /* 右侧间距 */
+			border-radius: 5px; /* 圆角边框 */
+			cursor: pointer; /* 鼠标指针样式 */
+			font-size: 16px; /* 字体大小 */
+			font-weight: bold;  
+			transition: background-color 0.3s; /* 背景颜色过渡效果 */                
+			
+			
+			}
+	
+		  .light-01-HeaderContainer-button:hover {
+				background-color: #0056b3 ; /* 悬停时背景颜色为稍浅的灰色 */
+			}
+	
+	
+		/* 03 - 下拉菜单  的每个选项容器  */            
+		 .light-01-HeaderContainer-option-container {
+			display: flex; /* 使用 flexbox 布局 */
+			align-items: center; /* 垂直居中对齐 */
+			padding: 5px 10px; /* 内边距 */
+			cursor: pointer; /* 鼠标指针样式 */
+			font-weight: bold;  
+			border-bottom: 1px solid #444 ; /* 每个选项的底部边框 */
+			}
+	
+	
+		/* 04 - 下拉勾选的框框  */
+		 .light-01-Header-Option-checkbox {
+			width: 16px;  /* 设置复选框的宽度 */
+			height: 16px; /* 设置复选框的高度 */
+			margin-right: 10px; /* 设置复选框与标签之间的间距 */
+			vertical-align: middle; /* 确保复选框和标签垂直居中对齐 */
+			}
+		
+		/* 05 - 选项值  */
+			.light-01-Header-Option-label {
+			  font-size: 14px;       
+			  color: #ffffff ;        
+			  background-color: #333 ; 
+			  padding: 0px;          
+			  border-radius: 3px;    
+			  display: inline-block;  
+			  margin-top: -2px;  
+			  margin-left: 3px;  
+			  vertical-align: middle ; 
+				}
+	
+	/* 白色主题01 - Row1 | Row2 | Row4 - 通用的 - lable | 输入框 */
+		/* lable 样式  */    
+		   .light-01-label-field {
+			font-size: 16px; /* 字体大小 */
+			color: #ff557f ; /* 字体颜色 */
+			margin-right: 3px;   /* 与输入框的间距 */
+			margin-left: 10px;    /* 左侧间距 */ 
+			width: 80px;          /* 设置容器宽度，例如 100% */
+			display: flex;
+			font-weight: bold; 
+			align-items: center; /* 垂直对齐 */
+			}
+	
+		/* 输入框 样式  */    
+		   .light-01-inputFilter-field-string {
+			padding: 8px;
+			width: 250px;          /* 设置容器宽度，例如 100% */                
+			margin-left: -5px;   /* 左边距 */
+			margin-right: 10px;  /* 右边距 */
+			border-radius: 4px;
+			border: 1px solid #333 !important;
+			background-color: #333 ; /* 输入框背景颜色 */
+			color: #fff ; /* 输入框文字颜色 */
+			box-shadow: 0 0 5px rgba(204, 204, 204, 0.5); /* 添加柔和的阴影效果 */
+			}
+		  
+	/* 白色主题01 - 清空按钮 → Row2-"清空条件" | Row4-"清空 Date" | 
+	
+	
+		/* Row2 - 04 - 清空 String 搜索 - 按钮    */
+		 .light-01-button--clear-StringSearch {
+			box-sizing: border-box;
+			background-color: #007BFF ;
+			color: #5500ff ;
+			cursor: pointer;
+			width: 120px;          /* 设置容器宽度，例如 100% */
+			padding: 10px 20px; /* 确保按钮内填充一致 */
+			border: none; /* 确保没有边框变化 */
+			margin:1 px; /* 添加外边距，防止与其他元素重叠 */
+			font-weight: bold; 
+			display: inline-block; /* 保持按钮内联块状 */
+			 /* width: auto; 保持自动宽度 */
+			line-height: 0; /* 设置行高，确保文本垂直居中 */
+			border: 1px solid #333 !important;
+			}
+		
+		 .light-01-button--clear-StringSearch:hover {
+			background-color: #def1ff ;
+			padding: 10px 20px;    /* 确保悬停时填充一致 */
+			border: none;          /* 确保悬停时没有边框变化 */        
+			width: 120px;          /* 设置容器宽度，例如 100% */
+			font-weight: bold; 
+			/*width: auto;保持自动宽度  */
+				   
+			}
+		/* Row4 - 04 - 清空 Date 日期条件 - 按钮    */
+		 .light-01-button--clear-Date {
+			box-sizing: border-box;
+			background-color: #007BFF ;
+			color: #5500ff ;
+			font-weight: bold; 
+			cursor: pointer;
+			width: 120px;          /* 设置容器宽度，例如 100% */
+			padding: 10px 20px; /* 确保按钮内填充一致 */
+			border: none; /* 确保没有边框变化 */
+			margin:1 px; /* 添加外边距，防止与其他元素重叠 */
+			
+			display: inline-block; /* 保持按钮内联块状 */
+			 /* width: auto; 保持自动宽度 */
+			line-height: 0; /* 设置行高，确保文本垂直居中 */
+			border: 1px solid #333 !important;
+			}
+		
+		 .light-01-button--clear-Date:hover {
+			background-color: #def1ff ;
+			padding: 10px 20px;    /* 确保悬停时填充一致 */
+			border: none;          /* 确保悬停时没有边框变化 */        
+			width: 120px;          /* 设置容器宽度，例如 100% */
+			font-weight: bold; 
+			/*width: auto;保持自动宽度  */
+				   
+			}
+		/* Row5 - 04 - 清空 Sort 排序  - 按钮  */
+		 .light-01-button--clear-Sort {
+			box-sizing: border-box;
+			background-color: #007BFF ;
+			color: #5500ff ;
+			cursor: pointer;
+			margin-top: 16px;   
+			margin-right: 5px;
+			font-weight: bold;              
+			width: 100px;          /* 设置容器宽度，例如 100% */
+			padding: 10px 20px; /* 确保按钮内填充一致 */
+			border: none; /* 确保没有边框变化 */               
+			
+			display: inline-block; /* 保持按钮内联块状 */
+			 /* width: auto; 保持自动宽度 */
+			line-height: 0; /* 设置行高，确保文本垂直居中 */
+			border: 1px solid #333 !important;
+			}
+		
+		 .light-01-button--clear-Sort:hover {
+			background-color: #def1ff ;
+			padding: 10px 20px;    /* 确保悬停时填充一致 */
+			border: none;          /* 确保悬停时没有边框变化 */        
+			width: 100px;          /* 设置容器宽度，例如 100% */
+			/*width: auto;保持自动宽度  */
+			border: 1px solid #d0f1ff !important; /* 更柔和的浅灰色边框，使用 !important */
+				   
+			}
+	
+
